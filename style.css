@@ -335,8 +335,88 @@ hr {
     width: 20%;
 }
 
+/* Team section */
+.team-section {
+    padding-bottom: 100px;
+}
+
+.team-section .row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.team-section-upper {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 50px 50px;
+    justify-content: space-between;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+/* FAQ section */
+.faq-section {
+    padding: 0px 0px 100px 0px;
+}
+
+.faq-section-upper {
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    flex-direction: column;
+}
+.question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.question h4 {
+    width: 420px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questions img {
+    width: 16px;
+    height: 16px;
+}
+ 
 /* Get in touch section */
 .get-in-touch-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 300px;
     background-color: #707392;
+}
+
+.buttons-wrapper {
+    display: flex;
+}
+
+.buttons-wrapper button {
+    margin: 0px 10px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    margin-right: 20px;
 }
